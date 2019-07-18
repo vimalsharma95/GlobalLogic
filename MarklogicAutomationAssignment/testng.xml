@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Creating DB And Forest">
+    <classes>
+      <!-- <class name="maven.auto.config.MarkLogic.AppTest"/> -->
+      
+      <class name="TestCases.CreatingDbAndForest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

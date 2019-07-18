@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36690" started-at="2019-07-18T11:46:06Z" finished-at="2019-07-18T11:46:42Z">
+    <groups>
+    </groups>
+    <test name="Creating DB And Forest" duration-ms="36690" started-at="2019-07-18T11:46:06Z" finished-at="2019-07-18T11:46:42Z">
+      <class name="TestCases.CreatingDbAndForest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.CreatingDbAndForest@1e397ed7]" name="setup" is-config="true" duration-ms="8313" started-at="2019-07-18T17:15:57Z" finished-at="2019-07-18T17:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createDbAndForest()[pri:1, instance:TestCases.CreatingDbAndForest@1e397ed7]" name="createDbAndForest" duration-ms="18885" started-at="2019-07-18T17:16:06Z" finished-at="2019-07-18T17:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDbAndForest -->
+        <test-method status="PASS" signature="verifyOutput()[pri:2, instance:TestCases.CreatingDbAndForest@1e397ed7]" name="verifyOutput" duration-ms="70" started-at="2019-07-18T17:16:25Z" finished-at="2019-07-18T17:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOutput -->
+        <test-method status="PASS" signature="InsertData()[pri:3, instance:TestCases.CreatingDbAndForest@1e397ed7]" name="InsertData" duration-ms="11487" started-at="2019-07-18T17:16:25Z" finished-at="2019-07-18T17:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertData -->
+        <test-method status="PASS" signature="validateAdminInterface()[pri:4, instance:TestCases.CreatingDbAndForest@1e397ed7]" name="validateAdminInterface" duration-ms="6220" started-at="2019-07-18T17:16:36Z" finished-at="2019-07-18T17:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdminInterface -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestCases.CreatingDbAndForest@1e397ed7]" name="close" is-config="true" duration-ms="947" started-at="2019-07-18T17:16:43Z" finished-at="2019-07-18T17:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCases.CreatingDbAndForest -->
+    </test> <!-- Creating DB And Forest -->
+  </suite> <!-- Suite -->
+</testng-results>

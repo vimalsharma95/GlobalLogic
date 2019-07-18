@@ -1,0 +1,10 @@
+INFO    2019-07-18 17:15:58,073 [main] Base.BaseTest  - config file loaded
+INFO    2019-07-18 17:15:58,076 [main] Base.BaseTest  - OR file loaded
+INFO    2019-07-18 17:16:02,729 [main] Base.BaseTest  - chrome browser launched
+INFO    2019-07-18 17:16:06,308 [main] Base.BaseTest  - navigating to ---http://vimal:vimal@localhost:8000/qconsole/
+INFO    2019-07-18 17:16:09,385 [main] Base.BaseTest  - selecting element ----Dropdown_XPATHwith value ------javascript
+INFO    2019-07-18 17:16:10,049 [main] Base.BaseTest  - clicking on element------RunButton_ID
+INFO    2019-07-18 17:16:31,639 [main] Base.BaseTest  - clicking on element------RunButton_ID
+INFO    2019-07-18 17:16:42,914 [main] Base.BaseTest  - clicking on element------DbStatus_XPATH
+INFO    2019-07-18 17:16:42,995 [main] Base.BaseTest  - total number of document ---48
+INFO    2019-07-18 17:16:44,213 [main] Base.BaseTest  - test execution completed

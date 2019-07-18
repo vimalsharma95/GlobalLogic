@@ -1,0 +1,12 @@
+INFO    2019-07-18 17:14:18,183 [main] Base.BaseTest  - config file loaded
+INFO    2019-07-18 17:14:18,185 [main] Base.BaseTest  - OR file loaded
+INFO    2019-07-18 17:14:23,753 [main] Base.BaseTest  - chrome browser launched
+INFO    2019-07-18 17:14:34,385 [main] Base.BaseTest  - navigating to ---http://vimal:vimal@localhost:8000/qconsole/
+INFO    2019-07-18 17:14:37,992 [main] Base.BaseTest  - selecting element ----Dropdown_XPATHwith value ------javascript
+INFO    2019-07-18 17:14:39,333 [main] Base.BaseTest  - clicking on element------RunButton_ID
+ERROR   2019-07-18 17:15:04,783 [main] Base.BaseTest  - Cannot locate an element using xpath=//*[@id="query-view-content"]/div[2]/div/pre/code      
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-T6DJMNG3', ip: '172.18.0.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+INFO    2019-07-18 17:15:05,659 [main] Base.BaseTest  - test execution completed
