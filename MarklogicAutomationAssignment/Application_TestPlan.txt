@@ -1,0 +1,44 @@
+
+#MARKLOGIC TEST PLAN
+--------------------
+
+#Intorduction:
+-------------
+This document includes testing strategy for the search and sorting functionality in an marklogic application.
+
+#Creating environment setup:
+----------------------------
+
+1.Create a database and a forest from admin interface
+
+2.Create an application server from the admin interface and select a database for that server in which all the data/documents for this server will be stored
+  Server Specifications:
+  server name -- NewApp(specify any name for the server)
+  root --  /Users/vimal.sharma/app/src  (The root document directory pathname where the files will be stored for this app on your local system)
+  port --  8010 (port at which you want to run this application)
+  modules -- filesystem -- The database that contains application modules.
+  database-- The database name.
+
+3.Create a rest api instance which can communicate with your database created.
+
+4.Create your xquery pages for your application and place them in the root path of the application server.
+
+
+#TEST CASES:
+------------
+
+1.Click functionality on both the radio button should be working fine.
+2.Only 1 radio button should be selected at a time.
+3.While selecting ascending radio button,list of documents should be sorted/shown in ascending orders(a-b-c-d).
+4.While selecting descending radio button,list of documents should be sorted/shown in descending orders(d-c-b-a).
+5.Ascending/Descending functionality should not be case sensitive(i.e it should work same for documents name with upper case and lower case).
+6.Checking ascending/descending functionality for the documents which are starting with numeric value(it should sort from 0-9).
+7.Checking the sorting functionality for document name having alphanumeric value(like "name1","name2").
+8.Checking the sorting functionality for document name having alphabets and some special characters(as "name_value").
+9.Verifying the search functionality,while searching any pattern it should show list of all the documents containing that particular pattern.
+10.After doing search for any word, matching word should be highlighted in all the documents.
+11.Search functionality should work from top to bottom.
+12.Validating search functionality for numeric,alphanumeric and special characters.
+13.Check for the serach limit,upto how many characters should be accepted by the search text box.
+14.Searching pattern with space in between them.
+15.Check for the condition if nothing matches with the searched pattern(i.e "no result found should be shown").
