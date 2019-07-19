@@ -1,0 +1,58 @@
+<html>
+<body>
+<h1>Marklogic Data Application</h1>
+<div style="width: 50%;margin-left: 19%;">
+        <form action="searchResult.xqy">
+            <span class="label">Please enter search string:</span>
+            <input type="text" name="query"/><br/>
+            <input type="submit" value="Search"/>
+        </form>
+</div>
+<div style="width: 50%;margin-top: -4%;">
+<input id="asc" type="radio" name="a" value="" checked>Asc
+<input id="desc" type="radio" name="a" value=""> Desc
+
+
+</div>
+<div>
+<button id="fetchData">FetchData</button>
+</div>
+<div id="data">
+</div>
+</body>
+<script>
+function showData1()
+{
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       // Typical action to be performed when the document is ready:
+       document.getElementById("data").innerHTML = xhttp.responseText;
+    }
+};
+xhttp.open("GET", "ascData.xqy", true);
+xhttp.send();
+}
+function showData2()
+{
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       // Typical action to be performed when the document is ready:
+       document.getElementById("data").innerHTML = xhttp.responseText;
+    }
+};
+xhttp.open("GET", "descData.xqy", true);
+xhttp.send();
+}
+
+function checkRadio()
+{
+	if(document.getElementById('asc').checked == true)
+	  showData1();
+	else
+	  showData2();
+}
+document.getElementById('fetchData').addEventListener('click',checkRadio)
+</script>
+</html>
